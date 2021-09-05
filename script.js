@@ -10,7 +10,7 @@ const resolutionLabel = document.querySelector('.resolutionLabel')
 let numSquares = 8;  
 
 
-// Updates the text above our input range 
+// Updates the text above our input range, AND also assigns our variable numSquares to value of our input range 
 resolutionInput.addEventListener('input', changeGrid); 
 
 function changeGrid(e){
