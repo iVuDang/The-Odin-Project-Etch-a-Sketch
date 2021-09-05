@@ -1,0 +1,85 @@
+/* FORMATTING THE GRID  */
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(135deg, #40e0d0 10%, lightpink 90%);   
+     
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .grid{
+    display: grid;
+    max-width: 300px;
+    min-width: 300px;
+    
+    max-height: 300px;
+    min-height: 300px;
+    
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+  }
+  
+  .box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    border: 1px solid #f5f5f5;  /* need a border to show the boxes */ 
+    border-radius: 4px;  
+   
+    opacity: 0.5;  
+    background-color: transparent;
+    
+    transition: background .5s, color .5s;
+    cursor: pointer; /* hand icon */
+  
+  }
+  
+  
+  /* FORMATTING THE TEXT */
+  .project-name{
+    color: dimgray
+  }
+  
+  
+  #iVuDang_YouTube_a{
+    color: dimgray; 
+    text-decoration: none;
+  }
+      #iVuDang_YouTube_a:active,
+      #iVuDang_YouTube_a:hover{
+        color: black;    
+        text-decoration: none;
+        filter: drop-shadow(4px 4px 20px #40e0d0);  
+        
+        transition: all .5s;
+        transition-timing-function: ease-in-out;
+      }
+  
+  
+  /* FORMATTING THE BUTTONS */
+  button {
+    border-radius: 10px;
+    background-color: transparent; 
+    color: dimgray; 
+    
+    width: 100px;
+    height: 50px;
+  } 
+  
+  button:hover {
+      transition: all .5s;
+      transition-timing-function: ease-in-out; 
+    
+      color: white;
+      background-color: black; 
+      opacity: 50%; 
+    
+      filter: drop-shadow(4px 4px 20px #40e0d0);  
+    }
