@@ -27,7 +27,7 @@ I created an Etch a Sketch (user is able to draw on a sketchpad) | Skills: JavaS
 | Website | Link | 
 | ------------- | ------------- | 
 | CodePen demo | https://codepen.io/iVuDang/full/522d0a34ca84c28e811f17482156781e | 
-| GitHub demo | https://ivudang.github.io/The-Odin-Project-Rock-Paper-Scissors/ | 
+| GitHub demo | https://ivudang.github.io/The-Odin-Project-Etch-a-Sketch/ | 
 
 
 <br />
@@ -44,7 +44,7 @@ You should opt to use the querySelector method if you need to select elements us
 
 
 ### What could be improved
-- [ ] How to change 'leaf' to 'earth' on output. 
+- [ ] More practice and conceptual understanding of classList.add, classList.remove, firstChild, removeChild. 
 
 
 
