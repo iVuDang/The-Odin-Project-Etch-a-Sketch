@@ -20,7 +20,7 @@ To build a browser version of something between a sketchpad and an Etch-A-Sketch
 
 
 ### Outcome :white_check_mark:
-I created an Etch a Sketch (user is able to draw on a sketchpad) | Skills: JavaScript, DOM, HTML, CSS.
+I created an Etch a Sketch (user is able to draw on a sketchpad).
 
 
 
