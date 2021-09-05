@@ -40,9 +40,6 @@ I created an Etch a Sketch (user is able to draw on a sketchpad).
 * querySelector method lets you retrieve an element using a CSS selector query, you can select elements by ID, class, or any other type of selector. 
 * getElementById method retrieves an element by its DOM ID.
 
-You should opt to use the querySelector method if you need to select elements using more complex rules that are easily represented using a CSS selector. If you want to select an element by its ID, using getElementById is a good choice.
-
-
 ### What could be improved
 - [ ] More practice and conceptual understanding of classList.add, classList.remove, firstChild, removeChild. 
 
